@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top-head {
+  background-color: #00adb5;
+}
+.head2 {
+  margin-left: 20%;
+}
+.head2 i {
+  padding-left: 30px;
+}
+/* top-head end */
+.logo img {
+  width: 100%;
+}
+.navbarrr li a {
+  font-size: 20px;
+  padding-left: 30px;
+}
+.carousel-image {
+  position: relative;
+}
+.carousel-image img {
+  background-image: linear-gradient(
+    rgba(23, 163, 184, 0.781),
+    rgba(192, 203, 205, 0.633)
+  );
+}
+.text-caption {
+  position: absolute;
+  top: 0;
+  left: 0 !important;
+}
+.what-we-do h3 {
+  color: #00adb5;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.what-we-do img {
+  width: 100%;
+}
+
+.about-info {
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+.about-info h1 {
+  margin-top: 20px;
+}
+.about-info button {
+  color: #fbfbfb;
+  background-color: #00adb5;
+  border: 1px solid #00adb5;
+  /* padding: 15px; */
+  /* border-radius: 12px; */
+  /* margin-top: 20px; */
+}
+.about-info p {
+  color: #8c96a7;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.about-icons img {
+  width: 80px;
+  margin-left: 55px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: #15aec91a 0px 8px 24px, rgba(7, 161, 188, 0.1) 0px 16px 56px,
+    rgba(14, 177, 192, 0.1) 0px 24px 80px;
+}
+.img-about img {
+  width: 100%;
+}
+.services {
+  background-color: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+}
+.service-inner {
+  /* border: 1px solid black; */
+  padding: 20px;
+  background-color: white;
+  margin-top: 30px;
+  box-shadow: #03c4e61a 0px 8px 24px, rgba(16, 136, 157, 0.1) 0px 16px 56px,
+    rgba(14, 177, 192, 0.1) 0px 24px 80px;
+  border-radius: 10px;
+}
+.service-inner:hover {
+  background-color: #00adb5;
+  color: white;
+  transform: scale(1.04);
+  transition: 0.5s;
+}
+.service-inner img {
+  width: 80px;
+}
+.service-inner a {
+  list-style: none;
+  text-decoration: none;
+  color: #00adb5;
+}
+.service-inner:hover a {
+  color: white;
+}
+.service-inner-1:hover h3 {
+  color: white;
+  margin-top: 30px;
+}
+.testimonial {
+  text-align: center;
+  margin-top: 80px;
+  padding: 10px;
+}
+.testimonial p span {
+  color: #8c96a7;
+}
+.team h2{
+  text-align: center;
+}
+.team p{
+  text-align: center;
+}
+
+.service-inner-1 {
+  /* border: 1px solid black; */
+  padding: 20px;
+  background-color: white;
+  margin-top: 30px;
+  
+  box-shadow: #03c4e61a 0px 8px 24px, rgba(16, 136, 157, 0.1) 0px 16px 56px,
+    rgba(14, 177, 192, 0.1) 0px 24px 80px;
+  border-radius: 10px;
+}
+.service-inner-1-img{
+  width: 100vh;
+  height: 100vh;
+}
+.service-inner-1-h3 {
+  color: aqua;
+}
+
+.service-inner-1:hover {
+  background-color: #00adb5;
+  color: white;
+  transform: scale(1.04);
+  transition: 0.5s;
+}
+
+.ques-img img {
+  width: 100%;
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+  transform: scale(0.7) !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+.questions{
+    background-color:#00adb5;
+    color: white;
+    padding: 50px;
+    font-size: medium;
+    
+}
+.accordion-item{
+    background-color: #35b6bc;
+}
+.accordion-item button{
+    background-color: #1bb7bf;
+    color: white;
+    padding: 30px;;
+}
+.end{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 50px;
+  
+}
+
+.end-3{
+  padding: 40px;
+}
+.end-4{
+  padding: 40px;
+}
+.end i {
+  padding: 40px;
+
+}
+@media screen and (max-width: 992px) {
+}
+.service{
+  text-align: center;
+  color: black;
+}
